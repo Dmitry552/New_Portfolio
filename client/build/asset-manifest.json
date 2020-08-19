@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.64d8efe0.chunk.css",
+    "main.js": "/static/js/main.465c467e.chunk.js",
+    "main.js.map": "/static/js/main.465c467e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8896086d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8896086d.js.map",
+    "static/js/2.6e8fbf4c.chunk.js": "/static/js/2.6e8fbf4c.chunk.js",
+    "static/js/2.6e8fbf4c.chunk.js.map": "/static/js/2.6e8fbf4c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b6a131b4572319dfc59339d7c5e38342.js": "/precache-manifest.b6a131b4572319dfc59339d7c5e38342.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.64d8efe0.chunk.css.map": "/static/css/main.64d8efe0.chunk.css.map",
+    "static/media/Blog.png": "/static/media/Blog.ee97996a.png",
+    "static/media/Foto_3.png": "/static/media/Foto_3.da72e29d.png",
+    "static/media/Internet_magazin_knig.png": "/static/media/Internet_magazin_knig.a56f98fe.png",
+    "static/media/Pepelaz.png": "/static/media/Pepelaz.a01531e4.png",
+    "static/media/app.scss": "/static/media/fa-solid-900.cdfec5cf.woff",
+    "static/media/Sokrati_ssylku.png": "/static/media/Sokrati_ssylku.013b5070.png",
+    "static/media/css-3-png-1-min.png": "/static/media/css-3-png-1-min.a80fe247.png",
+    "static/media/github__m-min.png": "/static/media/github__m-min.ef133896.png",
+    "static/media/js__m-min.png": "/static/media/js__m-min.f2054a43.png",
+    "static/media/mongoose-1-min.png": "/static/media/mongoose-1-min.96091b6f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8896086d.js",
+    "static/js/2.6e8fbf4c.chunk.js",
+    "static/css/main.64d8efe0.chunk.css",
+    "static/js/main.465c467e.chunk.js"
+  ]
+}
