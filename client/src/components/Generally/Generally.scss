@@ -1,0 +1,19 @@
+﻿.gen {
+  img {
+    height: 120px;
+  }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  &_imag {
+    margin: 0 5px 10px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .gen {
+    &_imag {
+      margin: 0 5px 20px;
+    }
+  }
+}

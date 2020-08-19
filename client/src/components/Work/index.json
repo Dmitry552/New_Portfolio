@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": "1",
+    "title": "Интернет магазин",
+    "img": "./images/Internet_magazin_knig.png",
+    "url": "https://github.com/Dmitry552/Internet_magazin"
+  },
+  {
+    "id": "2",
+    "title": "Пепелатс",
+    "img": "./images/Pepelaz.png",
+    "url": "https://github.com/Dmitry552/Pepelaz"
+  },
+  {
+    "id": "3",
+    "title": "Сократи ссылку",
+    "img": "./images/Sokrati_ssylku.png",
+    "url": "https://github.com/Dmitry552/Sokrati_ssylku"
+  },
+  {
+    "id": "4",
+    "title": "Блог",
+    "img": "./images/Blog.png",
+    "url": "https://github.com/Dmitry552/Blog_client"
+  }
+]

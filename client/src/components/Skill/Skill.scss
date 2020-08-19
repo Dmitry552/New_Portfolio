@@ -1,0 +1,26 @@
+﻿.skill {
+  padding: 0 15px;
+  .container {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 1140px;
+    .wrapSlide {
+      .itemSlide {
+        display: block;
+        animation: fade;
+        animation-duration: 3s;
+        text-align: center;
+      }
+      .itemSlide.active {
+        display: block ;
+      }
+    }
+  }
+}
+@media screen and (max-width: 520px) {
+  .container {
+    max-width: 480px;
+  }
+  
+}
+  

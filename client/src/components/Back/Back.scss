@@ -1,0 +1,17 @@
+﻿.back {
+  img {
+    height: 120px;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  &_imag {
+    margin: 0 5px 10px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .back_imag {
+    margin: 0 5px 20px;
+  }
+}
