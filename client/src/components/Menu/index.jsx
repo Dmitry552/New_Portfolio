@@ -2,7 +2,6 @@
 import './Menu.scss'
 
 export const Menu = ({change_scroll, scroll, Menu_, menu}) => {
-  console.log('Menu', menu)
   return (
     <nav className="nav_title" >
       <ul className="nav_title_menu" onClick={(e) => {
