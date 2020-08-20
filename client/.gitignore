@@ -12,10 +12,10 @@ node_modules
 /coverage
 
 # production
-/src
-src
-#/build
-#build
+#/src
+#src
+/build
+build
 
 # misc
 .DS_Store
