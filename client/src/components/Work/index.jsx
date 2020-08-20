@@ -4,7 +4,7 @@ import work from './index.json'
 
 export const Work = () => {
   return (
-    <section className="works">
+    <section className="works d">
       <div className="container">
         <h1>Мои работы</h1>
         <div className="work">
