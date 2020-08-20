@@ -10,10 +10,13 @@ export const Work = () => {
         <div className="work">
           {work.map((work) => {
             return (
-              <a href={work.url} target="_blank" key={work.id} rel="noopener noreferrer">
-                <img src={require(`${work.img}`)} alt="Сдесь должен был быть скрин"/>
-                <p>{work.title}</p>
-              </a>
+              <div className="work-img">
+                <a href={work.url} target="_blank" key={work.id} rel="noopener noreferrer">
+                  <img src={require(`${work.img}`)} alt="Сдесь должен был быть скрин"/>
+                  <p>{work.title}</p>
+                </a>
+              </div>
+              
             )
           })}
         </div>

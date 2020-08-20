@@ -1,9 +1,9 @@
 ﻿.works {
-  padding: 0 15px;
   max-width: 1140px;
-  margin: 0 auto;
   .container {
     margin-bottom: 30px;
+    padding: 0 15px;
+    margin: 0 auto;
     h1 {
       font-size: 44px;
       max-width: 800px;
@@ -17,35 +17,38 @@
       flex-grow: 1;
       flex-wrap: wrap;
       justify-content: space-around;
-      a {
-        display: block;
-        text-decoration: none;
-        outline: none;
-        margin-bottom: 15px;
-        transition-duration: 0.2s;
-        transition-property: box-shadow;
-        img {
-          height: 200px;
-          border-radius: 2px;
+      .work-img {
+        a {
+          display: block;
+          text-decoration: none;
+          outline: none;
+          margin-bottom: 15px;
+          transition-duration: 0.2s;
+          transition-property: box-shadow;
+          img {
+            width: 100%;
+            border-radius: 2px;
+          }
+          p {
+          text-align: center;
+          text-decoration: none;
+          padding-top: 7px;
+          border-top: 1px solid #4dc4ca;
+          color: black;
+          font-size: 20px;
+          }
         }
-        p {
-        text-align: center;
-        text-decoration: none;
-        padding-top: 7px;
-        border-top: 1px solid #4dc4ca;
-        color: black;
-        font-size: 20px;
+        a:hover {
+          box-shadow: 0 0 8px rgba(102, 102, 102, 0.52);
         }
+        a:focus {
+          animation-name: push;
+          animation-duration: 0.2s;
+          animation-timing-function: linear;
+          animation-iteration-count: 1;
+        } 
       }
-      a:hover {
-        box-shadow: 0 0 8px rgba(102, 102, 102, 0.52);
-      }
-      a:focus {
-        animation-name: push;
-        animation-duration: 0.2s;
-        animation-timing-function: linear;
-        animation-iteration-count: 1;
-      }
+      
       @keyframes push {
         50% {
           transform: scale(0.9);
@@ -53,10 +56,4 @@
       }
     }
   }
-}
-@media screen and (max-width: 520px) {
-  .work a img {
-    height: 180px;
-  }
-  
 }
