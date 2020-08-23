@@ -18,7 +18,7 @@ class Footer extends Component {
             <div className="contact">
               <div className="cont_contacts">
                 <p className="phone"><i className="fas fa-phone-square"></i>
-                  +380634774013</p>
+                  +380637248841<p>
                 <p className="maill" onClick={Modal}><i className="fas fa-envelope"></i>
                   foker552@gmail.com</p>
                 <p className="location"><i className="fas fa-map-marker-alt"></i>
